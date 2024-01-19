@@ -1,0 +1,49 @@
+{
+  "registrationsForm": [
+    {
+      "nome": "Jefferson",
+      "idade": "35",
+      "email": "jefferson@gmail.com",
+      "tamanho-da-camisa": "P",
+      "categoria-da-corrida": "3RUN",
+      "quantidade-doada": "100",
+      "id": 1
+    },
+    {
+      "nome": "Bianca",
+      "idade": "28",
+      "email": "bianca@gmail.com",
+      "tamanho-da-camisa": "M",
+      "categoria-da-corrida": "5RUN",
+      "quantidade-doada": "150",
+      "id": 2
+    },
+    {
+      "nome": "Lucas",
+      "idade": "18",
+      "email": "lucas@GMAIL.COM",
+      "tamanho-da-camisa": "XG",
+      "categoria-da-corrida": "4WALK",
+      "quantidade-doada": "30",
+      "id": 3
+    },
+    {
+      "nome": "Marcela",
+      "idade": "58",
+      "email": "marcela@hotmail.com",
+      "tamanho-da-camisa": "GG",
+      "categoria-da-corrida": "4WALK",
+      "quantidade-doada": "35",
+      "id": 4
+    },
+    {
+      "nome": "Maria",
+      "idade": "65",
+      "email": "maria@yahoo.com",
+      "tamanho-da-camisa": "P",
+      "categoria-da-corrida": "4WALK",
+      "quantidade-doada": "5",
+      "id": 5
+    }
+  ]
+}
