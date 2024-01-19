@@ -4,15 +4,24 @@
     padding: 0;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
 .header-content {
     text-align: center;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 .header-picture {
     display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20px auto;
   width: 50%;
 }
 
@@ -21,54 +30,85 @@
   text-align: center;
 }
 
-.nav-hover {
+.nav-button {
   display: inline-block;
-  margin-right: 5rem;
-
-  background-color: blue;
-  color: white;
+  margin-right: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #555;
+    border-radius: 5px;
 }
 
+.nav-button:hover {
+    color: black;
+    background-color: white;
+}
+
+main {
+    padding: 20px;
+    background-color: #5e5318;
+    color: white;
+}
+
+
+
 .coffee-description{
-    display: inline-block;
+    /* display: inline-block;
     text-align: left;
         padding: 20px;
     width: 25%;
     height: 100%;
-    margin-right: 30px;
-    vertical-align: top;
+    margin-right: 0px;
+    vertical-align: top; */
+    width: 30%;
+    float: left;
+    padding: 20px;
+    margin-right: 20px;
 }
 
 .main-products {
     display: inline-block;
     text-align: right;
-    width: 60%;
+    max-width: 50%;
 }
 
 .first-row-content {
-    display: inline-block;
+    display: inline;
 }
 
 .second-row-content {
-    display: inline-block;
+    display: inline;
 }
 
 .product-content {
     display: inline-block;
 }
 
-#event {
-    display: block;
-}
+.event {
+margin-top: 30px;}
 
 .event-table {
     width: 100%;
     border-collapse: collapse;
+    margin-bottom: 20px;
 }
 
 .event-table > th, td {
     border: 1px solid #ddd;
     padding: 0.5rem;
+    text-align: center;
+}
+
+.form {
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
     text-align: center;
 }
 
