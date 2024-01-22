@@ -245,3 +245,9 @@ footer {
   padding: 20px;
   text-align: center;
 }
+
+footer p {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bolder;
+}
