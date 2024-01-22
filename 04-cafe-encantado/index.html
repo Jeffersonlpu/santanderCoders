@@ -9,28 +9,16 @@
   <body>
     <div class="content">
       <header>
-        <!-- VER ACESSIBILIDADE!!! -->
+        <div class="header-content"></div>
+        <nav>
+          <div class="nav-content">
+            <a class="nav-button" href="#main-products">Menu</a>
 
-        <div class="header-content">
-          <h1>Café Encantado</h1>
-            <!-- <p>
-                Descubra o Sabor da Magia!
-            </p> -->
+            <a class="nav-button" href="#event">Eventos</a>
 
-          <figure class="header-figure">
-            <img class="header-picture" src="assets/header1.jpg" alt="" />
-          </figure>
-
-          <nav class="nav-top-menu">
-            <div class="nav-content">
-              <a class="nav-button" href="#main-products">Menu</a>
-
-              <a class="nav-button" href="#event">Eventos</a>
-
-              <a class="nav-button" href="#form-content">Contato</a>
-            </div>
-          </nav>
-        </div>
+            <a class="nav-button" href="#form-content">Contato</a>
+          </div>
+        </nav>
       </header>
       <main>
         <aside class="coffee-description">
@@ -65,69 +53,66 @@
 
         <section id="main-products">
           <h2 class="title-products">Menu</h2>
-          <div class="first-row-content">
-            <article class="product-content">
-              <figure>
-                <img src="/assets/header2.jpg" alt="" />
-                <figcaption>Café Expresso</figcaption>
-              </figure>
-              <div class="price">
-                <span>R$ 20,00</span>
-              </div>
-            </article>
 
-            <article class="product-content">
-              <figure>
-                <img src="/assets/img-coffee.jpeg" alt="" />
-                <figcaption>Cappuccino</figcaption>
-              </figure>
-              <div class="price">
-                <span>R$ 20,00</span>
-              </div>
-            </article>
+          <article class="product-content">
+            <figure>
+              <img src="/assets/cafe-expresso.jpg" alt="Café Expresso" />
+              <figcaption>Café Expresso</figcaption>
+            </figure>
+            <div>
+              <span>R$ 20,00</span>
+            </divss=>
+          </article>
 
-            <article class="product-content">
-              <figure>
-                <img src="/assets/tea.jpg" alt="" />
-                <figcaption>Chás diversos</figcaption>
-              </figure>
-              <div class="price">
-                <span>R$ 20,00</span>
-              </div>
-            </article>
-          </div>
+          <article class="product-content">
+            <figure>
+              <img src="/assets/img-coffee.jpeg" alt="Cappuccino" />
+              <figcaption>Cappuccino</figcaption>
+            </figure>
+            <div>
+              <span>R$ 20,00</span>
+            </div>
+          </article>
 
-          <div class="second-row-content">
-            <article class="product-content">
-              <figure>
-                <img src="assets/pexels-elli-1854652.jpg" alt="" />
-                <figcaption>Coffee Cake</figcaption>
-              </figure>
-              <div class="price">
-                <span>R$ 20,00</span>
-              </div>
-            </article>
+          <article class="product-content">
+            <figure>
+              <img src="/assets/cha.jpg" alt="Xícara de Chá" />
+              <figcaption>Chás diversos</figcaption>
+            </figure>
+            <div>
+              <span>R$ 20,00</span>
+            </div>
+          </article>
 
-            <article class="product-content">
-              <figure>
-                <img src="assets/pexels-maria-luiza-melo-16406487.jpg" alt="" />
-                <figcaption>Brownie</figcaption>
-              </figure>
-              <div class="price">
-                <span>R$ 20,00</span>
-              </div>
-            </article>
+          <article class="product-content">
+            <figure>
+              <img src="assets/bolo-cafe.jpg" alt="Bolo de Café" />
+              <figcaption>Coffee Cake</figcaption>
+            </figure>
+            <div>
+              <span>R$ 20,00</span>
+            </div>
+          </article>
 
-            <article class="product-content">
-              <figure>
-                <img src="/assets/pexels-елена-селищева-8601851.jpg" alt="" />
-                <figcaption>Palha Italiana</figcaption>
-              </figure>
-              <div class="price">
-                <span>R$ 20,00</span>
-              </div>
-            </article>
-          </div>
+          <article class="product-content">
+            <figure>
+              <img src="assets/brownie.jpg" alt="Brownie" />
+              <figcaption>Brownie</figcaption>
+            </figure>
+            <div>
+              <span>R$ 20,00</span>
+            </div>
+          </article>
+
+          <article class="product-content">
+            <figure>
+              <img src="assets/palha-italiana.jpg" alt="Palha Italiana" />
+              <figcaption>Palha Italiana</figcaption>
+            </figure>
+            <div>
+              <span>R$ 20,00</span>
+            </div>
+          </article>
         </section>
 
         <section id="event">
@@ -186,7 +171,7 @@
             <tr>
               <td rowspan="2">
                 Workshop Gratuito, se inscreva no formulário ao lado. Nos deixe
-                uma mensagem e concorra a uma vaga!
+                uma poesia sobre a magia do café e concorra a uma vaga!
               </td>
               <td colspan="2">EVENTO GRATUITO</td>
             </tr>
@@ -195,8 +180,10 @@
             </tr>
           </table>
         </section>
+
         <section id="form-content">
           <h2>Formulário de contato</h2>
+
           <form class="form" action="">
             <div class="form-inputs">
               <label for="name">Nome:</label>
@@ -216,6 +203,38 @@
             </div>
             <button class="submit-form-button" type="submit">Enviar</button>
           </form>
+          <figure>
+            <img
+              class="logo-picture"
+              src="assets/cafe-logo2.png"
+              alt="Brinde com Café"
+            />
+          </figure>
+        </section>
+        <section class="history-coffee">
+          <h2  class="history-title">Você sabia?</h2>
+          <p>
+            O café tem uma história fascinante que remonta ao século IX, quando
+            foi descoberto nas terras altas da Etiópia. Segundo a lenda, um
+            pastor chamado Kaldi percebeu que suas cabras ficavam mais
+            energéticas ao comer as frutas de uma determinada planta. Curioso,
+            experimentou os grãos ele mesmo e experimentou uma sensação
+            revitalizante. Essa descoberta levou à disseminação do café na
+            região, e eventualmente, ao redor do mundo.
+          </p>
+          <p>
+            No século XVII, os cafés se tornaram centros de encontros
+            intelectuais na Europa, conhecidos como "escolas de pensamento".
+            Artistas, escritores e filósofos frequentavam esses
+            estabelecimentos, gerando discussões e inspirações que moldaram a
+            história cultural. O café tornou-se não apenas uma bebida, mas um
+            símbolo de convívio e criatividade.
+          </p>
+          <p>
+            Hoje, o Café Encantado busca preservar essa tradição, oferecendo não
+            apenas café excepcional, mas um espaço onde as histórias se
+            entrelaçam e a magia do café continua a cativar mentes e corações.
+          </p>
         </section>
       </main>
       <footer>
